@@ -1,5 +1,7 @@
 package com.example.appestructurada23_10.feature.meals.ui
 
+import com.example.appestructurada23_10.network.remote.domain.MealCategory
+
 object MealContract {
     sealed interface Intent {
         data object Load : Intent
